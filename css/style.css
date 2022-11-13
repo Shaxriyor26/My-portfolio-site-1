@@ -18,9 +18,11 @@ body{
 }
 
 /* header */
+
+
 .header__logo > img{
     width: 114px;
-    height: 41px;
+    height: 50px;
 
 }
 
@@ -28,14 +30,124 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5px;
 }
 
 /* nav */
+
 .nav__item{
     text-decoration: none;
     color: #232E35;
     margin-right: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.nav__item.active{
+    color: rgb(255, 0, 0);
+}
+
+.nav__item:hover{
+    color: rgb(255, 0, 0);
 }
 /* nav end */
+
+.resume_button:hover{
+  color: rgb(255, 30, 0);
+  cursor:pointer;
+  /* kursor ko`rinishi */
+}
+
+
+.header__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 102px;
+    height: 36px;
+   
+    border: 2px solid #f1f1f1;
+    border-radius: 8px;
+}
+
+.resume_button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232E35;
+   
+}
+
+.nav:first-child{
+    color: green;
+}
+
+
+
+/* intro */
+.line{
+   background-color: black;
+    height: 2px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.nameis_wrap{
+    width: 200px;
+    display: flex;
+     align-items: center;
+}
+
+.mynameis{
+    font-weight: 500;
+    font-size: 12px;
+    line-height:24px;
+    letter-spacing: 7.5px;
+    color: #232E35;
+    text-transform: uppercase;
+  
+
+
+}
+
+
+.name_text{
+    color: blueviolet;
+}
+.description{
+    max-width: 400px;
+    font-weight: 400px;
+
+
+}
+
+.name{
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+
+.intro_img{
+    height: 300px;
+    width: 100px;
+    display: flex;
+    
+}
+
+.intro{
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+/* intro end */
+
+
 
 /* header end */
