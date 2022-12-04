@@ -13,8 +13,7 @@ body{
 .container{
     width: 800px;
     margin: 0 auto;
-    /* border: 2px solid black; */
-    height: 50px;
+    /* border: 2px solid grey; */
 }
 
 /* header */
@@ -22,17 +21,19 @@ body{
 
 .header__logo > img{
     width: 114px;
-    height: 50px;
+    height: 100px;
 
 }
 
 .header__wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 5px;
 }
-
+.header{
+    height: 600px;
+}
 /* nav */
 
 .nav__item{
@@ -70,6 +71,7 @@ body{
    
     border: 2px solid #f1f1f1;
     border-radius: 8px;
+    margin-top: 10px;
 }
 
 .resume_button{
@@ -142,12 +144,86 @@ body{
     align-items: center;
 }
 
-
-
+.social_media{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15px;
+    width: 15px;
+    gap: 28px;
+ 
+}
 
 
 /* intro end */
 
-
-
 /* header end */
+
+
+
+
+/* ABOUT*/
+.about{
+    background-color: #fbfbfb;
+    height: 300px;
+}
+
+.about_wrapper{
+  
+    height: 500px;
+}
+
+.about_title{
+    height: 40px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.about_block{
+   
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.men_kimman{
+  
+    height: 200px;
+    width: 380px;
+}
+.talim{
+   
+    height: 200px;
+    width: 380px;
+  
+}
+
+.men_kimman__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.kimman{
+    color:rgb(161, 106, 106);
+}
+
+.talim_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+
+/* ABOUT END*/
+
